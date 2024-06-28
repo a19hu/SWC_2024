@@ -1,10 +1,15 @@
 # SWC Website
 
 ## Rules
-
-Though open source, this project is only for the SWC website team.
+<li>
+Though open source, this project is only for the SWC website team. 
+</li>
+<li>
 Please do not create a PR unless assigned an issue.
+</li>
+<li> 
 After making a PR, request for review.
+</li>
 
 
 ## Installation
