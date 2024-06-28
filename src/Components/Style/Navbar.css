@@ -58,11 +58,41 @@ a{
      cursor: pointer;
 }
 .nav_link_drop{
+    padding: 10px;
     background-color: aliceblue;
     box-shadow: 2px 5px 12px rgb(173, 173, 173);
-   position: relative;
-   top: 10px;
-   display: flex;
+   position: absolute;
+   top: 100%;
+   width: 200px;
+   /* display: flex; */
    flex-direction: column;
+   gap: 10px;
+   display: none;
 
+}
+.nav_link_drop div{
+   display: none;
+}
+ .nav_link_drop a {
+    display: none;
+}
+.nav_link_drop div:hover {
+
+    background-color: rgb(56, 56, 130);
+    color: white;
+    width: 100%;
+    justify-content: center;
+}
+.nav_link_drop a:hover {
+
+    background-color: rgb(56, 56, 130);
+    color: white;
+    width: 100%;
+    justify-content: center;
+}
+.nav_link_container:hover .nav_link_drop div {
+    display: flex;
+}
+.nav_link_container:hover .nav_link_drop a {
+    display: flex;
 }
