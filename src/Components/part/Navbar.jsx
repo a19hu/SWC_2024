@@ -30,7 +30,7 @@ export default function Navbar() {
               Counsellors <IoMdArrowDropdown />
             </div>
             <div className='nav_link_drop'>
-              <div>Counsellors Team</div>
+              <div><Link to="/CounsellorTeam">Counsellors Team</Link>  </div>
               <div>Student Experience</div>
             </div>
           </div>
