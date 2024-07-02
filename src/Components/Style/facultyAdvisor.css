@@ -1,0 +1,14 @@
+.facultyAdvisor{
+    padding: 185px 84px;
+    background: linear-gradient(180deg, rgba(230, 255, 241, 0.05) 8%, #EEFFF6 24%, rgba(230, 255, 241, 0.05) 100%);
+}
+.faculty_heading{
+background: -webkit-linear-gradient(99.17deg, #00C744 14.98%, #00220C 85.02%);
+    display: flex;
+        justify-content: center;
+        margin-bottom: 35px;
+        font-weight: 600;
+        font-size: 40px;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}

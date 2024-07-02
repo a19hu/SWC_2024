@@ -1,11 +1,5 @@
-.Home_page{
-    /* padding: 28px 84px; */
-}
 .carousel {
     position: relative;
-    /* width: 100%;
-    max-width: 600px;
-    margin: auto; */
     overflow: hidden;
     padding: 111px 84px 30px;
     background: linear-gradient(180deg, #cbe4ee 10.02%, #c8dbe4 35.23%, #c7d9e0 60.14%, #EDFAFF 84.45%);
@@ -58,10 +52,12 @@ border-radius: 55px;
 
 
 .contant_ div {
-    font-weight: 500;
-    font-size: 24px;
-    text-align: center;
-    line-height: 36px;
+        font-family: Poppins;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 36px;
+        letter-spacing: 0.02em;
+        text-align: center;
 }
 .our_moto_heading {
     background: -webkit-linear-gradient(99.17deg, #00D9D9 14.98%, #005454 85.02%);
@@ -84,18 +80,22 @@ display: flex;
 }
 
 .cantant{
-    font-weight: 500;
-        font-size: 24px;
-        text-align: center;
-        line-height: 36px;
+            font-family: Poppins;
+            font-size: 24px;
+            font-weight: 500;
+            line-height: 36px;
+            letter-spacing: 0.02em;
+            text-align: center;
 }
 .stu_exp_list{
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 27px;
   flex-direction: column;
   gap: 27px;
   line-height: 27px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
 
 }
 .stu_exp_button{
@@ -115,6 +115,7 @@ display: flex;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    gap: 10px;
 }
 .info_box{
     border: 1.5px solid black;
@@ -157,13 +158,45 @@ display: flex;
     font-size: 18px;
     font-weight: 400;
 }
+@media screen and (max-width: 1050px) {
 
-@media screen and (max-width: 500px) {
+.carousel {
+    padding: 111px 17px 30px;
+}
+.home_container {
+    padding: 28px 18px;
+}
+/* .box {
+    padding: 18px;
+} */
+}
+
+@media screen and (max-width: 550px) {
     .home_container {
             padding: 28px 16px;
     }
+.carousel-inner img {
+    height: 250px;
+}
 .box{
-    padding: 15px;
+    padding: 25px;
+    margin-bottom: 75px;
+}
+.contant_ div {
+        font-size: 15px;
+        line-height: 22.5px;
+}
+.heading {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+.cantant {
+    font-size: 15px;
+    line-height: 22.5px;
+}
+.stu_exp_list {
+        font-size: 15px;
+        line-height: 22.5px;
 }
     .information_list {
             flex-direction: column;
