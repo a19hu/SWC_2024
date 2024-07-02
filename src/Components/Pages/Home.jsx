@@ -22,12 +22,60 @@ export default function Home() {
     'https://via.placeholder.com/600x400?text=Image+2',
     'https://via.placeholder.com/600x400?text=Image+3',
   ];
+
   const  interval = 3000;
   useEffect(() => {
     const autoScroll = setInterval(goToNext, interval);
 
     return () => clearInterval(autoScroll);
   }, [currentIndex, interval]);
+
+  const links=[
+    {
+      name:"Faculty Advisors",
+      link:""
+    },
+    {
+      name:"Counsellors Team",
+      link:""
+    },
+    {
+      name:"UG Team",
+      link:""
+    },
+    {
+      name:"PG Team",
+      link:""
+    },
+    {
+      name:"General Queries",
+      link:""
+    },
+    {
+      name:"Discord Server",
+      link:""
+    },
+    {
+      name:"Instagram",
+      link:""
+    },
+    {
+      name:"Telegram",
+      link:""
+    },
+    {
+      name:"Facebook",
+      link:""
+    },
+    {
+      name:"PHC Contact no. : +91 291 280 1190",
+      link:""
+    },
+  ]
+  const Announ=[
+    "We are excited to launch our newsletter Aasmaan.",
+    "For Dates and Instructions for registration Click Here."
+  ]
   return (
     <div className='Home_page'>
      <div className="carousel">
@@ -45,7 +93,7 @@ export default function Home() {
           </div>
       </div>
       <div className='our_moto box' >
-        <div className='ourmoto_ heading'>
+        <div className='our_moto_heading heading'>
 Our Motto
         </div>
           <div className='our_moto_ cantant'>
@@ -53,7 +101,7 @@ Our Motto
           </div>
       </div>
        <div className='stu_exp box'>
-        <div className='stu_exp_ heading'>
+        <div className='stu_exp_heading heading'>
 Student Experiences
         </div>
           <div className='our_moto_ cantant'>
@@ -70,7 +118,7 @@ The student experience with the counselors at IIT Jodhpur was akin to discoverin
           <div className='stu_exp_button'>Read more</div>
       </div>
        <div className='info box'>
-        <div className='stu_exp_ heading'>
+        <div className='info_heading heading'>
 Info
         </div>
         <div className='information_list'>
@@ -78,19 +126,36 @@ Info
             <div>
 Important Links
             </div>
-           <li><a href="">Faculty Advisors</a></li>
+            <hr />
+            <div>
+
+            {links.map((data,intex)=>
+            {
+              return <li><a href="" className='links_info'>{data.name}</a></li>
+            }
+            )}
+            
+            </div>
           </div>
           <div className='info_box'>
             <div>
 Announcements
             </div>
-           <li><a href="">Faculty Advisors</a></li>
+            <hr />
+            <div className='annou_new'>New</div>
+            <div className='annou_context'>
+             {Announ.map((data,index)=>{
+            return <li>{data}</li>
+             })}
+            </div>
+
           </div>
           <div className='info_box'>
             <div>
 Facebook
             </div>
-           <li><a href="">Faculty Advisors</a></li>
+            <hr />
+
           </div>
         </div>
       </div>
