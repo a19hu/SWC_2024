@@ -12,3 +12,14 @@ background: -webkit-linear-gradient(99.17deg, #00C744 14.98%, #00220C 85.02%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
 }
+@media screen and (max-width: 1050px) {
+.facultyAdvisor {
+        padding: 185px 18px;
+}
+}
+
+@media screen and (max-width: 550px) {
+.faculty_heading {
+            font-size: 28px;
+}
+}
