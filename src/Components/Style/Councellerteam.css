@@ -1,0 +1,47 @@
+.Councellerteam{
+    height: 100vh;
+    padding: 185px 84px;
+    background: linear-gradient(180deg, rgba(229, 255, 254, 0.05) 7.39%, #EAFFFE 22.42%, #FFF4F8 40.5%, rgba(255, 232, 240, 0.05) 86%);
+}
+.well_team_heading{
+    background: -webkit-linear-gradient(99.17deg, #FF9BBC 14.98%, #4F001A 85.02%);
+display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+    font-weight: 600;
+    font-size: 40px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.info_about_team_container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.info_about_team{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.team_img{
+    height: 204px;
+    width: 204px;
+    border-radius: 50%;
+}
+.team_details{
+    margin-left: 20px;
+}
+.team_details_name{
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 30px;
+        letter-spacing: 0.05em;
+}
+.team_content{
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+}
