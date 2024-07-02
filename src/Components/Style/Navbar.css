@@ -3,7 +3,6 @@
     top: 0;
     left: 0;
     right: 0%;
-    /* width: 100%; */
     background-color: rgb(255, 255, 255);
     box-shadow: 2px 5px 12px rgb(173, 173, 173);
     z-index: 1000;
@@ -117,8 +116,10 @@ a {
 
 
 
-
 @media screen and (max-width: 1050px) {
+    .navbar {
+        margin: 28px 18px;
+    }
     .nav_link{
         display: none;
         gap: 10px;

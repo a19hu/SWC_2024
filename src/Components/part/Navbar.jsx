@@ -39,7 +39,7 @@ export default function Navbar() {
               Team <IoMdArrowDropdown />
             </div>
             <div className='nav_link_drop'>
-              <div>Counsellors Team</div>
+              <div> <Link to="/FacultyAdvisor"> Faculty Advisors </Link></div>
               <div>Student Experience</div>
             </div>
           </div>
