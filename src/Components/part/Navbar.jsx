@@ -5,6 +5,7 @@ import '../Style/Navbar.css';
 import logo from '../../Images/logo.png';
 import Aasmaan from '../pdf/Aasmaan.pdf';
 import { IoMenuOutline } from 'react-icons/io5';
+import { IoMdArrowDropright } from "react-icons/io";
 
 export default function Navbar() {
   const [showNavLinks, setShowNavLinks] = useState(false);
@@ -31,7 +32,7 @@ export default function Navbar() {
             </div>
             <div className='nav_link_drop'>
               <div><Link to="/CounsellorTeam">Counsellors Team</Link>  </div>
-              <div>Student Experience</div>
+              <div><Link to="/StudentExperience">Student Experience</Link> </div>
             </div>
           </div>
           <div className='nav_link_container'>
@@ -40,7 +41,16 @@ export default function Navbar() {
             </div>
             <div className='nav_link_drop'>
               <div> <Link to="/FacultyAdvisor"> Faculty Advisors </Link></div>
-              <div>Student Experience</div>
+              <div className='nav_link_with_icon_inside' >
+                <div>
+
+                Student Team<IoMdArrowDropright />
+                </div>
+</div>
+               <div className='nav_link_drop_inside'>
+              <div><Link to="/UGTeam">UG Team</Link></div>
+              <div>Activity 2</div>
+            </div>
             </div>
           </div>
           <div className='nav_link_container'>

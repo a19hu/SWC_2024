@@ -82,7 +82,26 @@ a {
     visibility: hidden;
     font-weight: 100;
 }
-
+.nav_link_with_icon_inside div{
+    display: flex;
+}
+.nav_link_drop_inside{
+        padding: 10px;
+            background-color: rgb(209, 99, 99);
+            box-shadow: 2px 5px 12px rgb(173, 173, 173);
+            /* position: absolute; */
+            /* top: 100%;
+            left: 12%; */
+            width: 150px;
+            flex-direction: column;
+            gap: 10px;
+            /* visibility: hidden; */
+            font-weight: 100;
+}
+.nav_link_with_icon_inside:hover .nav_link_drop_inside{
+    display: flex;
+    visibility: visible;
+}
 .nav_link_container:hover .nav_link_drop {
     display: flex;
     visibility: visible;
