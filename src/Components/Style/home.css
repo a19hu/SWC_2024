@@ -1,5 +1,115 @@
 .Home_page{
-    background-color: beige;
-    height: 100vh;
-    padding-top: 100px;
+    /* padding: 28px 84px; */
+}
+.carousel {
+    position: relative;
+    /* width: 100%;
+    max-width: 600px;
+    margin: auto; */
+    overflow: hidden;
+    padding: 111px 84px 30px;
+}
+
+.carousel-inner {
+    width: 100%;
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-inner img {
+    width: 100%;
+    display: block;
+    height: 695px;
+    border-radius: 25px;
+}
+
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    color: rgb(3, 3, 3);
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.carousel-button.prev {
+    left: 10px;
+}
+
+.carousel-button.next {
+    right: 10px;
+}
+.home_container{
+    padding: 28px 84px;
+    background: linear-gradient(180deg, #EDFAFF 10.02%, #F0FFFF 35.23%, #FCF3FF 60.14%, rgba(250, 237, 255, 0.05) 84.45%);
+}
+.box{
+border-radius: 55px;
+    background-color: white;
+    padding: 79px;
+    margin-bottom: 125px;
+    box-shadow: 2px 5px 12px rgb(173, 173, 173);
+        align-items: center;
+        
+}
+
+
+.contant_ div {
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    line-height: 36px;
+}
+
+.heading{
+display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.cantant{
+    font-weight: 500;
+        font-size: 24px;
+        text-align: center;
+        line-height: 36px;
+}
+.stu_exp_list{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  flex-direction: column;
+  gap: 27px;
+  line-height: 27px;
+
+}
+.stu_exp_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    border: none;
+    background-color: white;
+    margin-top: 45px;
+    color: rgba(210, 81, 255, 1);
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.information_list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.info_box{
+    border: 1.5px solid black;
+    border-radius: 25px;
+    height: 364px;
+    width: 345px;
+    padding: 15px 23px;
+
 }
