@@ -10,6 +10,7 @@ import Festival from "./Components/Pages/Festival";
 import Gallery from "./Components/Pages/Gallery";
 import Hostels from "./Components/Pages/Hostels";
 import Faqs from "./Components/Pages/Faqs";
+import CounsllorActivity from "./Components/Pages/CounsllorActivity";
 
 function App() {
   return (
@@ -25,10 +26,7 @@ function App() {
       <Route element={<Gallery/>}  path="/gallery"/>
       <Route element={<Hostels/>}  path="/hostels"/>
       <Route element={<Faqs/>}  path="/faqs"/>
-
-
-
-
+      <Route element={<CounsllorActivity/>}  path="/CounsllorActivity"/>
       <Route element={<CounsellorTeam/>}  path="/CounsellorTeam"/>
 
     </Routes>

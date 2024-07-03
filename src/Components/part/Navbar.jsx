@@ -58,7 +58,7 @@ export default function Navbar() {
               Activities <IoMdArrowDropdown />
             </div>
             <div className='nav_link_drop'>
-              <div>Activity 1</div>
+              <div><Link to="/CounsllorActivity">Counsellor Activity</Link></div>
               <div>Activity 2</div>
             </div>
           </div>

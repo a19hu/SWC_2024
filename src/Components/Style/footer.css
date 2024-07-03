@@ -1,5 +1,5 @@
 .footer{
-    background: #f3f7ffbf;
+    background: linear-gradient(73.27deg, #FEFFFF 3.23%, #9DE8FB 34.63%, #ADEDFF 55.79%, #AEB6FF 81.28%, #F6F7FF 97.38%, #FBFCFF 114.11%);
     color: rgba(0, 50, 71, 1);
     box-shadow: 2px 5px 10px black;
     position: relative;
@@ -145,6 +145,7 @@ margin-right: 10px;
 @media screen and (max-width:850px) {
     .footer_container {
             padding: 10px 30px;
+            background: linear-gradient(302.2deg, rgba(166, 131, 223, 0.15) 0.19%, #A683DF 15.97%, #95E7FB 42.5%, #E9FAFE 75.84%, #FFFFFF 85.67%);
         }
     .footer_context {
         flex-direction: column;
