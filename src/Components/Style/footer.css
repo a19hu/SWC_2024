@@ -6,7 +6,7 @@
     
 }
 .footer_container{
-    padding: 10px 85px;
+    padding: 10px 45px;
 }
 .footer_context{
 
@@ -18,7 +18,7 @@
     gap: 100px;
 }
 .footer_help{
-    width: 30%;
+    width: 27%;
 }
 .footer_help div:nth-child(2) {
     margin-bottom: 20px;

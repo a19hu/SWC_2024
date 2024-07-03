@@ -1,0 +1,72 @@
+.festival{
+        padding: 185px 84px;
+        background: linear-gradient(180deg, rgba(229, 255, 254, 0.05) 2.18%, #EAFFFE 18.89%, #FAFFF4 63.5%, rgba(250, 255, 244, 0.05) 94.5%);
+}
+.box_navbar{
+    border-radius: 55px;
+        background-color: white;
+        padding: 9px 42px;
+        box-shadow: 2px 5px 12px rgb(173, 173, 173);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 55px;
+}
+.box_navbar  a{
+        padding: 8px 45px 8px 45px;
+        border-radius: 5px 0px 0px 0px;
+        opacity: 0px;
+            font-family: Poppins;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 21px;
+            letter-spacing: 0.02em;
+            text-align: left;
+}
+.Active{
+        background: rgba(201, 245, 255, 0.75);
+}
+.fest_context{
+    font-family: Poppins;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 36px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        color: black;
+}
+.fest_image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.fest_image img{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+@media screen and (max-width: 1050px) {
+.festival {
+        padding: 185px 17px;
+    }
+        .box_navbar a {
+            padding: 8px 25px 8px 25px;
+        }
+
+}
+
+@media screen and (max-width: 550px) {
+.festival {
+        padding: 185px 17px;
+    }
+  .box_navbar a {
+      padding: 8px 5px 8px 5px;
+  }
+.fest_context {
+        font-size: 15px;
+        line-height: 22.5px;
+}
+
+}
