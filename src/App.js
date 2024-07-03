@@ -22,7 +22,7 @@ function App() {
       <Route element={<CounsellorTeam/>}  path="/CounsellorTeam"/>
 
     </Routes>
-    {/* <Footer/> */}
+    <Footer/>
 
     </BrowserRouter>
   );
