@@ -7,6 +7,9 @@ import FacultyAdvisor from "./Components/Pages/FacultyAdvisor";
 import StudentExperience from "./Components/Pages/StudentExperience";
 import UGTeam from "./Components/Pages/UGTeam";
 import Festival from "./Components/Pages/Festival";
+import Gallery from "./Components/Pages/Gallery";
+import Hostels from "./Components/Pages/Hostels";
+import Faqs from "./Components/Pages/Faqs";
 
 function App() {
   return (
@@ -19,6 +22,11 @@ function App() {
       <Route element={<StudentExperience/>}  path="/StudentExperience"/>
       <Route element={<UGTeam/>}  path="/UGTeam"/>
       <Route element={<Festival/>}  path="/festival"/>
+      <Route element={<Gallery/>}  path="/gallery"/>
+      <Route element={<Hostels/>}  path="/hostels"/>
+      <Route element={<Faqs/>}  path="/faqs"/>
+
+
 
 
       <Route element={<CounsellorTeam/>}  path="/CounsellorTeam"/>

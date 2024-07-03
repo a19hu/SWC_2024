@@ -12,7 +12,7 @@
         justify-content: space-between;
         margin-bottom: 55px;
 }
-.box_navbar  a{
+.box_navbar  div{
         padding: 8px 45px 8px 45px;
         border-radius: 5px 0px 0px 0px;
         opacity: 0px;
@@ -23,9 +23,10 @@
             letter-spacing: 0.02em;
             text-align: left;
             color: black;
+            cursor: pointer;
 }
 .Active{
-        background: rgba(201, 245, 255, 0.75);
+        background: rgba(170, 233, 223, 0.808);
 }
 .fest_context{
     font-family: Poppins;
@@ -52,7 +53,7 @@
 .festival {
         padding: 185px 17px;
     }
-        .box_navbar a {
+        .box_navbar div {
             padding: 8px 25px 8px 25px;
         }
 
@@ -62,7 +63,7 @@
 .festival {
         padding: 185px 17px;
     }
-  .box_navbar a {
+  .box_navbar div {
       padding: 8px 5px 8px 5px;
   }
 .fest_context {

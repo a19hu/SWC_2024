@@ -1,0 +1,26 @@
+.gallery{
+    background: linear-gradient(180deg, rgba(229, 255, 254, 0.05) 2.18%, #EAFFFE 18.89%, #FAFFF4 63.5%, rgba(250, 255, 244, 0.05) 94.5%);
+}
+.gallery_image{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    position: relative;
+
+}
+.gallery_image img {
+  position: relative;
+height: 95%;
+    width: 95%;
+}
+
+@media screen and (max-width: 550px) {
+.gallery_image {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+        .gallery_image img {
+            position: relative;
+            height: 100%;
+            width: 100%;
+        }
+}
