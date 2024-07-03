@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import '../Style/home.css'
-import Carousel from 'react-bootstrap/Carousel';
-import logo from '../../Images/logo.png'
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 export default function Home() {
    const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -30,6 +29,11 @@ export default function Home() {
     return () => clearInterval(autoScroll);
   }, [currentIndex, interval]);
 
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+  
   const links=[
     {
       name:"Faculty Advisors",
@@ -117,7 +121,7 @@ The student experience with the counselors at IIT Jodhpur was akin to discoverin
           </div>
           <div className='stu_exp_button'>Read more</div>
       </div>
-       <div className='info box'>
+       <div className='info box' data-aos="zoom-in">
         <div className='info_heading heading'>
 Info
         </div>
