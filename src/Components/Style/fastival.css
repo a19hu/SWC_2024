@@ -22,6 +22,7 @@
             line-height: 21px;
             letter-spacing: 0.02em;
             text-align: left;
+            color: black;
 }
 .Active{
         background: rgba(201, 245, 255, 0.75);
