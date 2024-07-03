@@ -17,15 +17,16 @@ export default function Faqs() {
   return (
     <div className='faqs'>
        <div className='box_navbar'>
-        <div onClick={()=>setcurrent(0)} className={current === 0 ? "Active" : ""} >General</div>
-        <div onClick={()=>setcurrent(1)} className={current === 1 ? "Active" : ""}>Academics</div>
-        <div onClick={()=>setcurrent(2)} className={current === 2 ? "Active" : ""}>Registration</div>
-        <div onClick={()=>setcurrent(3)} className={current === 3 ? "Active" : ""}>Hostel</div>
-        <div onClick={()=>setcurrent(4)} className={current === 4 ? "Active" : ""}>Misc</div>
+        <div onClick={()=>setcurrent(0)} className={current === 0 ? "Active_faq" : ""} >General</div>
+        <div onClick={()=>setcurrent(1)} className={current === 1 ? "Active_faq" : ""}>Academics</div>
+        <div onClick={()=>setcurrent(2)} className={current === 2 ? "Active_faq" : ""}>Registration</div>
+        <div onClick={()=>setcurrent(3)} className={current === 3 ? "Active_faq" : ""}>Hostel</div>
+        <div onClick={()=>setcurrent(4)} className={current === 4 ? "Active_faq" : ""}>Misc</div>
       </div>
       { functions[current]}
-       <div>
-        For further queries mail us at wellbeing@iitj.ac.in
+       <div className='email_well'>
+        For further queries mail us at {" "}
+        <a href="mailto:wellbeing@iitj.ac.in"> {" "} wellbeing@iitj.ac.in</a>
        </div>
     </div>
   )

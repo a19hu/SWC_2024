@@ -1,15 +1,100 @@
 .faqs{
         padding: 185px 84px;
+        background: linear-gradient(180deg, rgba(255, 244, 248, 0.05) 2.18%, #FFF4F8 18.89%, rgba(255, 244, 248, 0.05) 93.5%);
+}
+.Active_faq{
+    background: rgba(255, 226, 235, 1);
+}
+.email_well{
+    font-family: Poppins;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 30px;
+        letter-spacing: 0.05em;
+        text-align: left;
+}
+.email_well a{
+    background: -webkit-linear-gradient(110.91deg, #FF9BBC 39.88%, #4F001A 81.73%);
+    -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    text-align: left;
+}
+.faqs_heading{
+    background: -webkit-linear-gradient(99.17deg, #FF9BBC 14.98%, #4F001A 85.02%);
+        display: flex;
+        justify-content: center;
+        margin-bottom: 35px;
+        font-weight: 600;
+        font-size: 40px;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+summary {
+    display: flex;
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30px;
+        letter-spacing: 0.05em;
+        text-align: left;
+        cursor: pointer;
+        align-items: center;
+        justify-content: space-between;
 }
 
+summary::after {
+    content: '';
+    width: 30px;
+    height: 30px;
+    background: url('arrow.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+    margin-left: .75em;
+    transition: 0.2s;
+}
+
+details[open]>summary::after {
+    transform: rotate(180deg);
+}
+.qan{
+    padding: 10px 5px;
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        text-align: left;
+}
+.questio_diff{
+    /* border: 1px solid violet; */
+    margin-top: 10px;
+    height: 2px;
+        background: linear-gradient(90deg, rgba(217, 217, 217, 0) 0%, #D9D9D9 50%, rgba(217, 217, 217, 0) 100%);
+}
 @media screen and (max-width: 1050px) {
 .faqs {
         padding: 185px 17px;
     }
+
 }
 
 @media screen and (max-width: 550px) {
     .faqs {
         padding: 185px 17px;
     }
+.faqs_heading {
+            font-size: 28px;
+}
+summary{
+        font-size: 16px;
+        line-height: 24px;
+}
+.qna{
+        font-size: 12px;
+        line-height: 21px;
+}
 }
