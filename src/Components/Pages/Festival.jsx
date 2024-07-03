@@ -18,7 +18,7 @@ export default function Festival() {
     ]
   return (
     <div className='festival'>
-      <div className='box_navbar'>
+      <div >
         <div >Ignus</div>
         <div onClick={()=>setcurrent(1)} className={current === 1 ? "Active" : ""}>Varchas</div>
         <Link onClick={()=>setcurrent(2)} className={current === 2 ? "Active" : ""}>Spandan</Link>
