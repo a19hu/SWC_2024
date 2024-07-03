@@ -6,6 +6,7 @@ import CounsellorTeam from "./Components/Pages/CounsellorTeam";
 import FacultyAdvisor from "./Components/Pages/FacultyAdvisor";
 import StudentExperience from "./Components/Pages/StudentExperience";
 import UGTeam from "./Components/Pages/UGTeam";
+import Festival from "./Components/Pages/Festival";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Route element={<FacultyAdvisor/>}  path="/FacultyAdvisor"/>
       <Route element={<StudentExperience/>}  path="/StudentExperience"/>
       <Route element={<UGTeam/>}  path="/UGTeam"/>
+      <Route element={<Festival/>}  path="/festival"/>
 
 
       <Route element={<CounsellorTeam/>}  path="/CounsellorTeam"/>

@@ -67,7 +67,7 @@ export default function Navbar() {
               Life @ IITJ <IoMdArrowDropdown />
             </div>
             <div className='nav_link_drop'>
-              <div>Life 1</div>
+              <div><Link to="/festival">Festival</Link></div>
               <div>Life 2</div>
               <div><a href="https://spc.iitj.ac.in/" target='_blank'> 
 CDC(Placement Cell)</a></div>
