@@ -69,6 +69,8 @@ export default function Navbar() {
             <div className='nav_link_drop'>
               <div>Life 1</div>
               <div>Life 2</div>
+              <div><a href="https://spc.iitj.ac.in/" target='_blank'> 
+CDC(Placement Cell)</a></div>
             </div>
           </div>
           <Link to="">FAQS</Link>
@@ -77,18 +79,18 @@ export default function Navbar() {
               QuickLink <IoMdArrowDropdown />
             </div>
             <div className='nav_link_drop'>
-              <div>Chairperson's slides</div>
-              <div>Bus Schedule</div>
-              <div to="" >Hotel map</div>
-              <a href='http://home.iitj.ac.in/~ankitasharma' target='_blank' rel='noopener noreferrer'>
+              <div><a href={Aasmaan} target='_blank' rel='noopener noreferrer'>Chairperson's slides</a> </div>
+              <div> <Link to=""> Bus Schedule </Link></div>
+              <div >Hotel map</div>
+             <div> <a href='http://home.iitj.ac.in/~ankitasharma' target='_blank' rel='noopener noreferrer'>
                 Assoc. Dean (Students)
-              </a>
-              <a href="http://iitj.ac.in/" target='_blank' rel='noopener noreferrer'>
+              </a></div>
+             <div> <a href="http://iitj.ac.in/" target='_blank' rel='noopener noreferrer'>
                 IITJ
-              </a>
-              <a href={Aasmaan} target='_blank' rel='noopener noreferrer'>
+              </a></div>
+              <div> <a href={Aasmaan} target='_blank' rel='noopener noreferrer'>
                 Aasmaan
-              </a>
+              </a></div>
             </div>
           </div>
           <a href="https://yourdost.com/" target='_blank' rel='noopener noreferrer'>YourDost</a>

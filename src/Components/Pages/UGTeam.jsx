@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import '../Style/ugteam.css'
 import anjali from '../../Images/anjali_bhatia.jpg'
 import { FaWhatsapp } from "react-icons/fa";
@@ -6,14 +6,22 @@ import { MdOutlineEmail } from "react-icons/md";
 import { IoLogoInstagram } from "react-icons/io5";
 import { TiSocialLinkedin } from "react-icons/ti";
 import { Link } from 'react-router-dom';
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 export default function UGTeam() {
+      useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
     <div className='ugteam'>
       <div className='ugteam_heading'>UG Team</div>
       <div className='box'>
         <div className='ugteam_heading'>Student Heads</div>
          <div className='info_about_team_container'>
-            <div className='info_about_team'>
+            <div className='info_about_team' data-aos="fade-up"
+     data-aos-duration="1000">
             <img src={anjali} alt="" className='team_img' />
             <div className='team_details'>
                 <div className='team_details_name'>Dr Anjali Bhatia</div>
