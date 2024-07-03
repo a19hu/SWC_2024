@@ -68,12 +68,15 @@ export default function Navbar() {
             </div>
             <div className='nav_link_drop'>
               <div><Link to="/festival">Festival</Link></div>
-              <div>Life 2</div>
+              <div><Link to="/gallery">Gallery</Link></div>
               <div><a href="https://spc.iitj.ac.in/" target='_blank'> 
 CDC(Placement Cell)</a></div>
+              <div>
+                <Link to="/hostels">Hostels</Link>
+              </div>
             </div>
           </div>
-          <Link to="">FAQS</Link>
+          <Link to="/faqs">FAQS</Link>
           <div className='nav_link_container'>
             <div className='nav_link_with_icon'>
               QuickLink <IoMdArrowDropdown />

@@ -1,6 +1,5 @@
 import React,{useState} from 'react'
 import '../Style/fastival.css'
-import { Link } from 'react-router-dom'
 import Ignus from '../part/Ignus'
 import Varchas from '../part/Varchas'
 import Spandan from '../part/Spandan'
@@ -18,12 +17,12 @@ export default function Festival() {
     ]
   return (
     <div className='festival'>
-      <div >
-        <div >Ignus</div>
+      <div className='box_navbar'>
+        <div onClick={()=>setcurrent(0)} className={current === 0 ? "Active" : ""} >Ignus</div>
         <div onClick={()=>setcurrent(1)} className={current === 1 ? "Active" : ""}>Varchas</div>
-        <Link onClick={()=>setcurrent(2)} className={current === 2 ? "Active" : ""}>Spandan</Link>
-        <Link onClick={()=>setcurrent(3)} className={current === 3 ? "Active" : ""}>Nimble</Link>
-        <Link onClick={()=>setcurrent(4)} className={current === 4 ? "Active" : ""}>Prometeo</Link>
+        <div onClick={()=>setcurrent(2)} className={current === 2 ? "Active" : ""}>Spandan</div>
+        <div onClick={()=>setcurrent(3)} className={current === 3 ? "Active" : ""}>Nimble</div>
+        <div onClick={()=>setcurrent(4)} className={current === 4 ? "Active" : ""}>Prometeo</div>
       </div>
       { functions[current]}
     </div>

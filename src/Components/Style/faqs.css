@@ -1,0 +1,15 @@
+.faqs{
+        padding: 185px 84px;
+}
+
+@media screen and (max-width: 1050px) {
+.faqs {
+        padding: 185px 17px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .faqs {
+        padding: 185px 17px;
+    }
+}
