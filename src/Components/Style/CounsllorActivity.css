@@ -35,3 +35,16 @@ position: relative;
     height: 100%;
     width: 100%;
 }
+
+.cou_middle_act_heading{
+    background: -webkit-linear-gradient(99.17deg, #D251FF 14.98%, #350048 85.02%);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+    font-weight: 600;
+    font-size: 40px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin-bottom: 135px;
+}
