@@ -392,6 +392,7 @@ export default function CounsllorActivity() {
         <div className="cou_act_img">
           <img src={reclaimingLifeImg1} alt="" />
         </div>
+        </div>
         <div className="box">
           <div className="cou_act_heading">Connecto Patronum</div>
           <div className="cou_act_context">
@@ -600,6 +601,6 @@ export default function CounsllorActivity() {
           </div>
         </div>
       </div>
-    </div>
+
   );
 }

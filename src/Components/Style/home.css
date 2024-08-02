@@ -177,6 +177,11 @@ display: flex;
     }
 .carousel-inner img {
     height: 250px;
+
+    .box{
+        padding: 18px;
+        
+    }
 }
 .box{
     padding: 25px;
