@@ -154,13 +154,29 @@ Announcements
             </div>
 
           </div>
-          <div className='info_box'>
-            <div>
-Facebook
-            </div>
-            <hr />
+          <div className="info_box" style={{
+              padding:"2px"
+            }}>
+              <div>Facebook</div>
+              <hr />
+              <iframe
+                name="fc3ab1a70c43e1b99"
 
-          </div>
+                frameborder="0"
+                allowtransparency="true"
+                allowfullscreen=""
+                allow="encrypted-media"
+                src="https://www.facebook.com/v2.9/plugins/page.php?adapt_container_width=true&amp;app_id=&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Dfee71eb7727aabc2a%26domain%3Dswc.iitj.ac.in%26is_canvas%3Dfalse%26origin%3Dhttp%253A%252F%252Fswc.iitj.ac.in%252Ffa3f24bb443a9395c%26relation%3Dparent.parent&amp;container_width=300&amp;height=364&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2FSWC.IITJodhpur%2F&amp;locale=en_GB&amp;sdk=joey&amp;show_facepile=true&amp;small_header=false&amp;tabs=timeline"
+                style={{
+                  border: 'none',
+                  visibility: 'visible',
+                  height:"364px",
+                  width:"300px"
+                }}
+                class=""
+              ></iframe>
+            </div>
+          
         </div>
       </div>
       </div>
