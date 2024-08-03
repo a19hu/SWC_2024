@@ -1,6 +1,6 @@
 import React from 'react'
 import '../Style/fastival.css'
-import fest from '../../Images/image 3.png'
+import fest from '../../Images/festivals/prometeo_imahe.png'
 
 export default function Prometeo() {
   return (
@@ -8,27 +8,29 @@ export default function Prometeo() {
       
      <div className='box'>
          <div className='fest_context'>
-            The Indian Institute Of Technology Jodhpur, since its inception has played an efficacious role in enhancing the socio-cultural aspects of education in its domain. The Inter college Socio-cult fest IGNUS epitomizes the same.
+         Prometeo is National Technical + Entrepreneurial Festival of IIT Jodhpur.
+                Prometeo derives its name from the Greek word for forethinker, and celebrates disruptive 
+                technologies through talks, workshops, and competitions.
          </div>
          <br />
          <br />
          <div className='fest_context'>
-            Ignus witnesses the participation of numerous stalwarts in the various arenas offered. The fest gives a platform to some of the country’s best hidden and unfathomed talents. With the total footfall amounting to about 1015 thousand, Ignus has witnessed the absorbing performance of famous artists like Andrew Newton, the band Pentagram, Shilpa Rao, Javed Ali among others.
-         </div>
-          <br />
-         <br />
-         <div className='fest_context'>
-            What makes Ignus different is that it coalesces all the three aspects required to be lucrative, thrilling and full of fun. The team of Ignus consists of student volunteers who work to promote creativity and intellectualism, the foundation of this festival.
-         </div>
-          <br />
-         <br />
-         <div className='fest_context'>
-            The fest intends to promote social awareness about the flaring issues rampant in the nation via trademark IITJ ways like NUKKAD, stage shows, etc. As stated above, Ignus comprises of an array of cultural events, activities and competitions which keep the fest full of life and zest. Ignus has become the front runner and the benchmark for all college fests making it the most anticipated extravaganza of IITJ. It has attracted major sponsors and extensive media coverage over the years. Ignus has created an unmatched aura of science and technology spectacle at the campus of IITJ.
+         Technology has been the heart of the development of the human race from the very beginning
+                and is speculated to be its heart till infinity. The theme of Prometeo 2023, “Origin to Infinity”
+                is centered around the same thought where we explore what technology has been in the past, what it 
+                is now and what it can be in the future.
          </div>
           <br />
          <br />
          <div className='fest_context'>
-            To know more about Ignus Click Here
+         This year we are going to explore the past and future of 
+                technological and entrepreneurial developments through a wide range of ideas developed and presented 
+                during the course of Prometeo '23.
+         </div>
+          <br />
+         <br />
+         <div className='fest_context'>
+            To know more about Prometeo Click Here
          </div>
       </div>
       <div className='box'>
