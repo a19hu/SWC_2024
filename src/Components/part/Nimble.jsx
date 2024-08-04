@@ -1,6 +1,6 @@
 import React from 'react'
 import '../Style/fastival.css'
-import fest from '../../Images/image 3.png'
+import fest from '../../Images/festivals/nimble_image.jpg'
 
 export default function Nimble() {
   return (
@@ -8,12 +8,16 @@ export default function Nimble() {
       
      <div className='box'>
          <div className='fest_context'>
-            The Indian Institute Of Technology Jodhpur, since its inception has played an efficacious role in enhancing the socio-cultural aspects of education in its domain. The Inter college Socio-cult fest IGNUS epitomizes the same.
+         Nimble, the intra college technical fest provides a platform to the techno buds
+                of the college to show their hidden talent. Nimble comprises of four action packed days filled with
+                a great variety of tech and science events ranging from intense mind boggling events such as
+                robotics, Electronics, programming to fun filled events like angry bird, quizzes, crypto etc.
          </div>
          <br />
          <br />
          <div className='fest_context'>
-            Ignus witnesses the participation of numerous stalwarts in the various arenas offered. The fest gives a platform to some of the country’s best hidden and unfathomed talents. With the total footfall amounting to about 1015 thousand, Ignus has witnessed the absorbing performance of famous artists like Andrew Newton, the band Pentagram, Shilpa Rao, Javed Ali among others.
+            Apart from the events, the talks by eminent personalities in the field of Science and Technology are
+                organized to motivate students to work harder as there is no end to discoveries and inventions.
          </div>
           <br />
          <br />
@@ -22,14 +26,6 @@ export default function Nimble() {
          </div>
           <br />
          <br />
-         <div className='fest_context'>
-            The fest intends to promote social awareness about the flaring issues rampant in the nation via trademark IITJ ways like NUKKAD, stage shows, etc. As stated above, Ignus comprises of an array of cultural events, activities and competitions which keep the fest full of life and zest. Ignus has become the front runner and the benchmark for all college fests making it the most anticipated extravaganza of IITJ. It has attracted major sponsors and extensive media coverage over the years. Ignus has created an unmatched aura of science and technology spectacle at the campus of IITJ.
-         </div>
-          <br />
-         <br />
-         <div className='fest_context'>
-            To know more about Ignus Click Here
-         </div>
       </div>
       <div className='box'>
         <div className='fest_image'>
