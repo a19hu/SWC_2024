@@ -133,13 +133,17 @@ margin-right: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 .circle_map_image{
     height: 250px;
     width: 250px;
+    position: relative;
 }
 .circle_map_image_laptop{
     display: none;
+    position: relative;
+
 }
 
 @media screen and (max-width:850px) {

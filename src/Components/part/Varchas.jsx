@@ -1,6 +1,6 @@
 import React from 'react'
 import '../Style/fastival.css'
-import fest from '../../Images/image 3.png'
+import fest from '../../Images/festivals/varchas_image.jpg'
 export default function Varchas() {
   return (
     <>

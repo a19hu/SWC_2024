@@ -145,9 +145,7 @@ display: flex;
     max-height: 364px;
     width: 345px;
     padding: 15px 0px;
-    overflow-y: scroll;
-        scrollbar-width: none;
-
+    overflow-y: hidden;
 }
 .info_box div:nth-child(1){
     padding: 0px 23px;
